@@ -279,6 +279,7 @@ window.onload = () => {
 
     // autostart
     if (sessionStorage.getItem("autostart") != null) {
+        sessionStorage.removeItem("autostart");
         start();
     }
 }
