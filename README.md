@@ -1,6 +1,8 @@
 # Password Game TAS
 This is a UserScript that tries to solve [The Password Game](https://neal.fun/password-game/), usually succeeding in just a few seconds.
 
+I have not tested it too extensively; it may've broken since I made it. Sorry.
+
 It's not always successful; the things that can impede its progress include:
 - rolling a YouTube video with too many elements in its URL
 - Paul not eating a bug when he's supposed to (his timer is started when the page loads)
