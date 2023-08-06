@@ -32,7 +32,7 @@ jobs:
         with:
           deno-version: v1.x
 
-      - name: Use Node.js 18
+      - name: Setup Node.js 18
         uses: actions/setup-node@v3
         with:
           node-version: 18
