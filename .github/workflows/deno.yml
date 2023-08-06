@@ -37,9 +37,13 @@ jobs:
         with:
           node-version: 18
 
-      - name: Run linter
-        run: deno lint
+      - name: Install dependancies
+      - run: npm i
 
       - name: Compile Script
         run: deno run -A ./compiler/build.ts
 
+      - uses: actions/upload-artifact@v3
+        with:
+          name: userscript
+          path: ./password-game-tas.user.js
