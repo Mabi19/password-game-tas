@@ -38,7 +38,7 @@ jobs:
           node-version: 18
 
       - name: Install dependancies
-      - run: npm i
+        run: npm i
 
       - name: Compile Script
         run: deno run -A ./compiler/build.ts
