@@ -173,7 +173,7 @@ export class PasswordBuilder {
             // use hefty javascript library to measure the length
             const graphemeCount = splitter.countGraphemes(password);
             // I'm not sure where the offset comes from
-            const fillerCount = LENGTH_TARGET - graphemeCount;
+            const fillerCount = LENGTH_TARGET - graphemeCount - 1;
 
             let periods = `<em>${"<".repeat(fillerCount)}</em>`;
 
