@@ -28,7 +28,7 @@ window.onload = () => {
 
         setStatus("Inputting static part, numbers and elements")
         const builder = new PasswordBuilder(editBox);
-        builder.parts.paul = new PasswordPart("🥚🐛🐛🐛");
+        builder.parts.paul = new PasswordPart("🥚🐛🐛");
         builder.parts.base = new PasswordPart(`may🌑🌒🌓🌔🌕🌖🌗🌘iamloved0shell🏋️‍♂️🏋️‍♂️🏋️‍♂️folly!${LENGTH_TARGET}@1:00`);
         builder.parts.romanNumerals = new PasswordPart("XXXV");
         // this reacts to chess and YT
